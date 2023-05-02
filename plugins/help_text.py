@@ -36,14 +36,14 @@ async def help_user(bot, update):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [[
-                  InlineKeyboardButton('👥 Group', url='https://t.me/JOSPSupport'),
-                  InlineKeyboardButton(' Channel 📢', url='https://t.me/JOSProjects')
+                  InlineKeyboardButton('👥 Group', url='https://t.me/MYPROJECTSSUPPORT'),
+                  InlineKeyboardButton(' Channel 📢', url='https://t.me/myprojects1')
                   ],[
-                  InlineKeyboardButton('🙄 Source', url='https://github.com/ZauteKm/URL-Uploader'),
-                  InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/josprojects/221'),
-                  InlineKeyboardButton('GitHub 🤪', url='https://github.com/ZauteKm')
+                  InlineKeyboardButton('Donate', url='https://t.me/+NGNWG4ESJfw3YTRl'),
+                  InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/myprojects1/25'),
+                  InlineKeyboardButton('Developer 🤪', url='https://t.me/myprojects1')
                   ],[
-                  InlineKeyboardButton('🔻 Subscribe Now YouTube 🔻', url='https://youtube.com/playlist?list=PLzkiTywVmsSfmhaDdWNZ5PRmmMKGTIxPJ')
+                  InlineKeyboardButton('🔻 JOIN IN OUR CHANNEL 🔻', url='https://t.me/myprojects1')
             ]]
         ),
         reply_to_message_id=update.message_id
@@ -61,14 +61,14 @@ async def start(bot, update):
         text=Translation.START_TEXT.format(update.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-                  InlineKeyboardButton('👥 Group', url='https://t.me/JOSPSupport'),
-                  InlineKeyboardButton(' Channel 📢', url='https://t.me/JOSProjects')
+                  InlineKeyboardButton('👥 Group', url='https://t.me/MYPROJECTSSUPPORT'),
+                  InlineKeyboardButton(' Channel 📢', url='https://t.me/myprojects1')
                   ],[
-                  InlineKeyboardButton('🙄 Source', url='https://github.com/ZauteKm/URL-Uploader'),
-                  InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/josprojects/221'),
-                  InlineKeyboardButton('GitHub 🤪', url='https://github.com/ZauteKm')
-                  ],[
-                  InlineKeyboardButton('🔻 Subscribe Now YouTube 🔻', url='https://youtube.com/playlist?list=PLzkiTywVmsSfmhaDdWNZ5PRmmMKGTIxPJ')
+                  InlineKeyboardButton('DONATE', url='https://t.me/+NGNWG4ESJfw3YTRl'),
+                  InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/myprojects1/25'),
+                  InlineKeyboardButton('Developer 🤪', url='https://t.me/myprojects1')
+                  ],
+                  InlineKeyboardButton('🔻 JOIN IN OUR CHANNEL 🔻', url='https://t.me/myprojects1')
             ]]
         ),
         reply_to_message_id=update.message_id
