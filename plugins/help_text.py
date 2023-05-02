@@ -67,7 +67,7 @@ async def start(bot, update):
                   InlineKeyboardButton('DONATE', url='https://t.me/+NGNWG4ESJfw3YTRl'),
                   InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/myprojects1/25'),
                   InlineKeyboardButton('Developer 🤪', url='https://t.me/myprojects1')
-                  ],
+                  ],[
                   InlineKeyboardButton('🔻 JOIN IN OUR CHANNEL 🔻', url='https://t.me/myprojects1')
             ]]
         ),
